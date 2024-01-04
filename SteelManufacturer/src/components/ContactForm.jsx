@@ -1,6 +1,7 @@
 const ContactForm = () => {
   return (
-    <div>
+    <div className="w-full h-screen bg-white">
+      potato
     </div>
   )
 }

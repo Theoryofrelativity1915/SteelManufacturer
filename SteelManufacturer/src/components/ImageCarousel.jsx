@@ -10,7 +10,10 @@ import 'swiper/css/autoplay'
 
 const ImageCarousel = () => {
   return (
-    <Swiper
+    <Swiper style={{
+      '--swiper-navigation-color': '#fff',
+      '--swiper-pagination-color': '#fff',
+    }}
       modules={[Navigation, Autoplay]}
       loop={true}
       autoplay={false}

@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'hero': "url('./src/assets/testimonials/ant-rozetsky-SLIFI67jv5k-unsplash-darkened.jpg')"
+      })
+    }
   },
   plugins: [],
 }

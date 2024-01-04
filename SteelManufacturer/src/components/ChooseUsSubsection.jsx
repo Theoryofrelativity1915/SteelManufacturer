@@ -1,23 +1,23 @@
-import ApartmentIcon from '@mui/icons-material/Apartment';
+import { MdApartment as BuildingIcon } from "react-icons/md";
 import { GiIBeam as SteelIcon } from "react-icons/gi";
-import { DesignServices as ProfessionalIcon } from '@mui/icons-material';
+import { FaPencilRuler as ProfessionalIcon } from "react-icons/fa";
 function ChooseUsSubsection() {
   return (
-    <div className="flex justify-center mx-auto">
-      <div>
-        <ApartmentIcon className='bg-white rounded-full box-content p-8 scale-105' />
-        <h4>Over 30 years of experience</h4>
-        <p></p>
+    <div className="flex justify-center mx-[20vw] gap-40 mt-12 mb-12">
+      <div className="flex flex-col items-center">
+        <BuildingIcon className='w-8 h-8 bg-white rounded-full box-content p-8' />
+        <h4 className="text-center text-white text-3xl m-4">30 years experience</h4>
+        <p className="text-white text-xl">With over 30 years of steadfast commitment and expertise, we have honed our craft to perfection, setting the standard in the steel industry.</p>
       </div>
-      <div>
-        <SteelIcon />
-        <h4>The finest steel</h4>
-        <p></p>
+      <div className="flex flex-col items-center ">
+        <SteelIcon className='bg-white w-8 h-8 rounded-full box-content p-8' />
+        <h4 className="text-center text-white text-3xl m-4 mb-6 mt-6">The finest steel</h4>
+        <p className="text-white text-xl">We meticulously source only the finest-grade steel, ensuring unparalleled quality and durability in every structure we build.</p>
       </div>
-      <div>
-        <ProfessionalIcon />
-        <h4>The finest steel</h4>
-        <p></p>
+      <div className="flex flex-col items-center">
+        <ProfessionalIcon className='w-8 h-8 bg-white rounded-full box-content p-8' />
+        <h4 className="text-center text-white text-3xl m-4">Professional Services</h4>
+        <p className="text-white text-xl">We provide comprehensive project management, precise engineering, and seamless steel installation, guaranteeing excellence at every stage of construction.</p>
       </div>
     </div>
   )

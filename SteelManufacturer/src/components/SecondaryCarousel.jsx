@@ -10,6 +10,10 @@ import img7 from '../assets/Secondary Slider/riccardo-farinazzo-HIIDt5hWSP8-unsp
 const SecondaryCarousel = () => {
   return (
     <Swiper
+      style={{
+        '--swiper-navigation-color': '#fff',
+        '--swiper-pagination-color': '#fff',
+      }}
       modules={[Navigation, Autoplay]}
       loop={true}
       autoplay={true}
