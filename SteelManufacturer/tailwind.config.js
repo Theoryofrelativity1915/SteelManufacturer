@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'hero': "url('./src/assets/testimonials/ant-rozetsky-SLIFI67jv5k-unsplash-darkened.jpg')"
+        'hero': "url('./src/assets/testimonials/ant-rozetsky-SLIFI67jv5k-unsplash-more-darkened.jpg')"
       })
     }
   },

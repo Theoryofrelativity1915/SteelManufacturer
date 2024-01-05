@@ -5,7 +5,7 @@ import services from '../assets/sams-solutions-qsk_ifUucWE-unsplash.jpg'
 import datacenter from '../assets/datacenter.jpg'
 function MoreInfoButtons() {
   return (
-    <div className='flex justify-center gap-6 mt-14'>
+    <div className='flex flex-col sm:flex-row items-center sm:justify-center gap-6 mt-14'>
       <div className='flex flex-col'>
         <img className='h-40 w-64' src={about} />
         <h4 className='text-2xl mt-3 mb-1'>About</h4>
@@ -24,7 +24,7 @@ function MoreInfoButtons() {
         <p className='w-64 text-wrap'>Our comprehensive suite of services revolves around the installation of, reinforcing, structural, and miscellaneous steel, catering to...</p>
         <NavLink className='underline'>Learn more</NavLink>
       </div>
-      <div className='flex flex-col'>
+      <div className='flex flex-col h-[328px]'>
         <img className='h-40 w-64' src={planning} />
         <h4 className='text-2xl mt-3 mb-1'>Planning and Projecting</h4>
         <p className='w-64 text-wrap'>Our commitment to precision begins at the genesis of every project, where our meticulous...</p>
