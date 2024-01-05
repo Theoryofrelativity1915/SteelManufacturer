@@ -33,7 +33,7 @@ const SecondaryCarousel = () => {
       spaceBetween={24}
       slidesPerView={numSlides}
       navigation
-      className='w-3/4 mt-24 mb-10'>
+      className='w-1/2 sm:w-3/4 mt-24 mb-10'>
       <SwiperSlide className='flex justify-center items-center'>
         <img src={img1} loading='lazy' className='brightness-75 object-cover object-center h-40 w-64' />
       </SwiperSlide>
