@@ -13,7 +13,9 @@ export const Home = () => {
       <SecondaryCarousel />
       <ChooseUs />
       <Testimonials />
-      <ContactForm />
+      <div className="w-full p-6 mb-16 mt-16 flex justify-center h-1/2 ">
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   )
