@@ -4,7 +4,6 @@ import { useState } from "react"
 const Navbar = () => {
   const [open, setOpen] = useState(false)
   const handleClick = () => {
-    console.log(open)
     setOpen(!open)
   }
   return (
@@ -27,7 +26,7 @@ const Navbar = () => {
           </svg> : <></>}
         </div>
       </div>
-      <div className={open ? "absolute flex flex-col z-10 bg-violet-100 w-screen transition-all" : "transition-all -translate-x-full absolute flex flex-col z-10 bg-violet-100 w-screen"}>
+      <div onClick={handleClick} className={open ? "absolute flex flex-col z-10 bg-violet-100 w-screen transition-all" : "transition-all -translate-x-full absolute flex flex-col z-10 bg-violet-100 w-screen"}>
         <NavLink to='/' className='m-4 text-2xl text-center'>Home</NavLink>
         <NavLink to='/about' className='m-4 text-2xl text-center'>About</NavLink>
         <NavLink to='/projects' className='m-4 text-2xl text-center'>Projects</NavLink>
