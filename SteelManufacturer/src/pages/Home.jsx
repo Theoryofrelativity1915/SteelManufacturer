@@ -7,7 +7,7 @@ import { Testimonials } from "../components/Testimonials"
 import Footer from "../components/Footer"
 export const Home = () => {
   return (
-    <div className="relative h-auto">
+    <div className="relative h-auto mt-[5rem]">
       <ImageCarousel />
       <MoreInfoButtons />
       <SecondaryCarousel />

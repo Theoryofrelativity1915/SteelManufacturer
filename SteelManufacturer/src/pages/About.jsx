@@ -2,7 +2,7 @@ import Footer from "../components/Footer"
 import image from '../assets/scott-blake-s9XDWLJ_LyE-unsplash.jpg'
 function About() {
   return (
-    <div className="w-full flex flex-col items-center flex-grow">
+    <div className="w-full mt-[5rem] flex flex-col items-center flex-grow">
       <div className="flex w-full md:w-5/6 pb-12 flex-col md:flex-row flex-grow items-center">
         <img src={image} className="object-cover object-center p-4 md:w-1/2" />
         <div className="w-full md:w-1/2 flex flex-col items-center">

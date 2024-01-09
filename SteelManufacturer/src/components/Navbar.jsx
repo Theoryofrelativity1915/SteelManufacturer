@@ -7,7 +7,7 @@ const Navbar = () => {
     setOpen(!open)
   }
   return (
-    <div>
+    <div className="fixed top-0 z-10 bg-white w-full shadow-md">
       <div className="flex">
         <img src={logo} className="w-32 mr-6 ml-9 mt-3 mb-3" />
         <div className="hidden sm:flex top-0 space-x-4 items-center sticky shadow-black gap-6">

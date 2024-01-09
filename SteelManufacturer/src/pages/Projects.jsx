@@ -16,7 +16,7 @@ import Footer from '../components/Footer';
 
 const ProjectCarousel = () => {
   return (
-    <div className='flex flex-col flex-grow'>
+    <div className='flex flex-col flex-grow mt-[5rem]'>
 
       <Swiper
         modules={[Navigation, Autoplay]}
